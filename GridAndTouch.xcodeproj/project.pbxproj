@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007A53B418100D4B007E1D3D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A53B318100D4B007E1D3D /* Photo.m */; };
 		007EA7AE180EA0AA008C4443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EA7AD180EA0AA008C4443 /* Foundation.framework */; };
 		007EA7B0180EA0AA008C4443 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EA7AF180EA0AA008C4443 /* CoreGraphics.framework */; };
 		007EA7B2180EA0AA008C4443 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EA7B1180EA0AA008C4443 /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		007EA7BA180EA0AA008C4443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 007EA7B9180EA0AA008C4443 /* main.m */; };
 		007EA7BE180EA0AA008C4443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 007EA7BD180EA0AA008C4443 /* AppDelegate.m */; };
 		007EA7C1180EA0AA008C4443 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007EA7BF180EA0AA008C4443 /* Main_iPhone.storyboard */; };
-		007EA7C4180EA0AA008C4443 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007EA7C2180EA0AA008C4443 /* Main_iPad.storyboard */; };
 		007EA7C7180EA0AA008C4443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007EA7C6180EA0AA008C4443 /* ViewController.m */; };
 		007EA7C9180EA0AA008C4443 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007EA7C8180EA0AA008C4443 /* Images.xcassets */; };
 		007EA7D0180EA0AA008C4443 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EA7CF180EA0AA008C4443 /* XCTest.framework */; };
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007A53B218100D4B007E1D3D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		007A53B318100D4B007E1D3D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		007EA7AA180EA0AA008C4443 /* GridAndTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridAndTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007EA7AD180EA0AA008C4443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		007EA7AF180EA0AA008C4443 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +48,6 @@
 		007EA7BC180EA0AA008C4443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		007EA7BD180EA0AA008C4443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		007EA7C0180EA0AA008C4443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		007EA7C3180EA0AA008C4443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		007EA7C5180EA0AA008C4443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		007EA7C6180EA0AA008C4443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		007EA7C8180EA0AA008C4443 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,11 +118,12 @@
 				007EA7BC180EA0AA008C4443 /* AppDelegate.h */,
 				007EA7BD180EA0AA008C4443 /* AppDelegate.m */,
 				007EA7BF180EA0AA008C4443 /* Main_iPhone.storyboard */,
-				007EA7C2180EA0AA008C4443 /* Main_iPad.storyboard */,
 				007EA7C5180EA0AA008C4443 /* ViewController.h */,
 				007EA7C6180EA0AA008C4443 /* ViewController.m */,
 				007EA7C8180EA0AA008C4443 /* Images.xcassets */,
 				007EA7B4180EA0AA008C4443 /* Supporting Files */,
+				007A53B218100D4B007E1D3D /* Photo.h */,
+				007A53B318100D4B007E1D3D /* Photo.m */,
 			);
 			path = GridAndTouch;
 			sourceTree = "<group>";
@@ -231,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007EA7C4180EA0AA008C4443 /* Main_iPad.storyboard in Resources */,
 				007EA7C9180EA0AA008C4443 /* Images.xcassets in Resources */,
 				007EA7C1180EA0AA008C4443 /* Main_iPhone.storyboard in Resources */,
 				007EA7B8180EA0AA008C4443 /* InfoPlist.strings in Resources */,
@@ -253,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007A53B418100D4B007E1D3D /* Photo.m in Sources */,
 				007EA7C7180EA0AA008C4443 /* ViewController.m in Sources */,
 				007EA7BE180EA0AA008C4443 /* AppDelegate.m in Sources */,
 				007EA7BA180EA0AA008C4443 /* main.m in Sources */,
@@ -292,14 +294,6 @@
 				007EA7C0180EA0AA008C4443 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		007EA7C2180EA0AA008C4443 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				007EA7C3180EA0AA008C4443 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		007EA7D8180EA0AA008C4443 /* InfoPlist.strings */ = {
@@ -474,6 +468,7 @@
 				007EA7E1180EA0AA008C4443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		007EA7E2180EA0AA008C4443 /* Build configuration list for PBXNativeTarget "GridAndTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +477,7 @@
 				007EA7E4180EA0AA008C4443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
